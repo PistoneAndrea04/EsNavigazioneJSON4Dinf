@@ -3,6 +3,8 @@
 let jsonDoc;
 let pos = 0;
 
+//Primo progetto caricato su github
+
 window.onload = function (){
     let json = localStorage.getItem("jsonBookstore");
     if (json != null) {
